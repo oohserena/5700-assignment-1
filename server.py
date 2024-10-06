@@ -3,7 +3,7 @@ import threading
 import random
 
 class Server:
-    def __init__(self, host='192.168.86.128', port=65433):
+    def __init__(self, host, port):
         self.host = host
         self.port = port
         self.server_name = "Server of Jiena Wu"
