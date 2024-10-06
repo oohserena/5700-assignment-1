@@ -1,7 +1,7 @@
 import socket
 
 class Client:
-    def __init__(self, host='192.168.86.128', port=65433):
+    def __init__(self, host, port):
         self.host = host
         self.port = port
         self.client_name = "Client of Jiena Wu"
